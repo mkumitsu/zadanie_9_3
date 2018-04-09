@@ -4,6 +4,4 @@ var ucDinosaur = dinosaur.toUpperCase();
 console.log(ucDinosaur); //sprawdzenie czy Uppercase działa
 var newText = text.replace('Velociraptor', ucDinosaur);
 console.log(newText); //sprawdzenie czy zmieniło nazwy
-console.log(newText.length / 2); //sprawdzenie ile znaków jest potrzebnych
-var partOfText = newText.slice(0, 72);
-console.log(partOfText); //wyświetlenie pożądanej dłgości tekstu
+console.log(newText.substr(0, newText.length/2));
